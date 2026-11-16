@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIGH TECH COMPANY GROUP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>HIGH TECH COMPANY GROUP</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#community">Community</a>
+    <a href="#jobs">Jobs</a>
+    <a href="#services">Services</a>
+    <a href="#business">Business</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>WELCOME TO HIGH TECH COMPANY GROUP</h1>
+  <h2>Connecting People. Creating Opportunities.</h2>
+  <p>A community where people share ideas, discover jobs,
+  promote businesses and connect with opportunities.</p>
+  <a class="btn" href="#join">JOIN OUR COMMUNITY</a>
+</section>
+
+<section id="community">
+  <h2>Community Forum</h2>
+  <p>Share your thoughts, ideas and questions with our community.</p>
+  <form name="community-post" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="community-post">
+    <input name="name" placeholder="Your name" required>
+    <input name="phone" placeholder="Your phone number" required>
+    <textarea name="message" placeholder="Write your post..." required></textarea>
+    <button type="submit">Publish Post</button>
+  </form>
+</section>
+
+<section id="jobs">
+  <h2>Job Opportunities</h2>
+  <p>Discover opportunities or submit a job advertisement.</p>
+  <form name="job-advertisement" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="job-advertisement">
+    <input name="company" placeholder="Company name" required>
+    <input name="job" placeholder="Job title" required>
+    <input name="location" placeholder="Job location" required>
+    <input name="phone" placeholder="Contact phone" required>
+    <textarea name="description" placeholder="Job description" required></textarea>
+    <button type="submit">Submit Job Advertisement</button>
+  </form>
+  <p>Proposed job advertisement fee: KSh 50. Await administrator confirmation before payment.</p>
+</section>
+
+<section id="services">
+  <h2>Services Directory</h2>
+  <p>Find and list services available in your community.</p>
+  <form name="service-listing" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="service-listing">
+    <input name="provider" placeholder="Your name or business" required>
+    <input name="service" placeholder="Service offered" required>
+    <input name="phone" placeholder="Phone number" required>
+    <input name="location" placeholder="Location" required>
+    <button type="submit">List My Service</button>
+  </form>
+</section>
+
+<section id="business">
+  <h2>Business Promotion</h2>
+  <p>Give your business an opportunity to reach more people.</p>
+  <form name="business-promotion" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="business-promotion">
+    <input name="business" placeholder="Business name" required>
+    <input name="phone" placeholder="Phone number" required>
+    <textarea name="details" placeholder="Describe your business" required></textarea>
+    <button type="submit">Promote My Business</button>
+  </form>
+</section>
+
+<section id="join">
+  <h2>Become a Member</h2>
+  <form name="member-registration" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="member-registration">
+    <input name="name" placeholder="Full name" required>
+    <input name="phone" placeholder="Phone number" required>
+    <input name="email" type="email" placeholder="Email address">
+    <button type="submit">Register</button>
+  </form>
+</section>
+
+<footer>
+  <h3>HIGH TECH COMPANY AND INVESTMENT</h3>
+  <p>Opening doors and uplifting humanity.</p>
+  <p>Email: hightechcompany@gmail.com</p>
+  <p>© 2026 HIGH TECH COMPANY GROUP</p>
+</footer>
+
+</body>
+</html>
